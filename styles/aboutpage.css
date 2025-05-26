@@ -6,6 +6,14 @@
     align-items: center;
     padding-top: 100px
 }
+.buynow-wrapper {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px
+}
 
 .buynow-content {
     display: flex;
@@ -25,6 +33,35 @@
 
 .buynow-img-container img {
     width: 100%;
+    height: 600px;
+    position: relative;
+    gap: 40px;
+
+    button {
+        color: rgba(20, 81, 123, 1);
+        background-color: white;
+        border: none;
+        font-family: "Lato", sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+        border-radius: 26px;
+        padding: 18px 36px;
+        cursor: pointer;
+    }
+
+    button:nth-of-type(1) {
+        position: absolute;
+        bottom: 50px;
+        left: 410px;
+    }
+
+    button:nth-of-type(2) {
+        position: absolute;
+        bottom: 50px;
+        right: 410px;
+    }
+
+    img {
     height: 100%;
     object-fit: cover;
     display: block;
@@ -126,6 +163,98 @@
                     font-family: "Baloo 2", sans-serif;
                     font-weight: 700;
                 }
+            }
+        }
+    }
+
+}
+
+.testimonials-wrapper {
+    width: 100%;
+    height: 100%;
+
+    h2 {
+        width: 100%;
+        height: 200px;
+        font-size: 36px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .testimonials-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 40px;
+        .testimonial-img {
+            img {
+                width: 200px;
+                height: 200px;
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+
+.founders-wrapper {
+    width: 100%;
+    height: 800px;
+    background-color: rgb(251, 251, 251);
+
+    h1 {
+        width: 100%;
+        height: 300px;
+        font-size: 36px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .founders {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+        h2 {
+            padding: 32px 0;
+            font-size: 21px;
+        }
+    }
+
+    .founders img {
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+    }
+
+}
+
+.testimonials-wrapper {
+    width: 100%;
+    height: 100%;
+
+    h2 {
+        width: 100%;
+        height: 200px;
+        font-size: 36px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .testimonials-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 40px;
+        .testimonial-img {
+            img {
+                width: 200px;
+                height: 200px;
+                object-fit: cover;
             }
         }
     }
